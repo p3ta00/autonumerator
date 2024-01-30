@@ -38,6 +38,4 @@ When prompted to enter a domain name for scanning or updating the `/etc/hosts` f
 ## **Output**
 All scan results are saved in the specified markdown file, detailing each step and output.
 
-## **License**
-MIT License. See `LICENSE` for details.
 
