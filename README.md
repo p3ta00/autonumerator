@@ -1,4 +1,5 @@
 # Network and Domain Scanning Tool
+### **** RUN AS SUDO ****
 
 ## **Description**
 This script integrates Nmap, FeroxBuster, and Gobuster for comprehensive network and domain scanning. It's designed for security professionals and enthusiasts to identify open ports, services, vulnerabilities, and to enumerate directories and subdomains.
@@ -22,7 +23,7 @@ sudo apt-get install python3 nmap gobuster feroxbuster
 
 ## **Usage**
 Run the script with the target IP address. Options available for batch mode and output file naming.
-python3 autonumerator.py -T 10.129.230.183
+sudo python3 autonumerator.py -T 10.129.230.183
 
 ### **Options** (batch is still in the works)
 - `-T, --ip` : Target IP (required)
