@@ -24,14 +24,14 @@ sudo apt-get install python3 nmap gobuster feroxbuster
 Run the script with the target IP address. Options available for batch mode and output file naming.
 python3 autonumerator.py -T 10.129.230.183
 
-### **Options** (batch is still in the works
+### **Options** (batch is still in the works)
 - `-T, --ip` : Target IP (required)
 - `-B, --batch` : Batch mode without prompts
 - `-o, --output` : Output file name (default: `scan_results.md`)
 
 ### **Host File Format**
 When prompted to enter a domain name for scanning or updating the `/etc/hosts` file, ensure the format is correct:
-- Format: `example.htb`
+- Domain: `example.htb`
 - dns/vhost: `dev`
 
 ## **Output**
